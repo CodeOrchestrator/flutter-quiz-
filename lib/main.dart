@@ -195,6 +195,7 @@ class _MyAppState extends State<MyApp> {
                         onPressed: () {
                           setState(() {
                             questionNum = 0;
+                            result = 0;
                           });
                         },
                         label: Text("restart", style: TextStyle(color: Colors.white),),
